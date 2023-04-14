@@ -1,3 +1,5 @@
+//file name: axios-handler.client.js
+//author: supernova
 export default function ({ $axios, $notify }) {
   $axios.onResponse((response) => {
     if (response && response.data) {
